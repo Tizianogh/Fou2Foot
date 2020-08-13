@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+div.logo{
+	border : 1px solid black;
+	width : 100%;
+}
+div.body{
+	width : 100%;
+	height : 100%;
+}
+div.blocpartieDroite{
+	width : 100%;
+	margin : auto;
+	display : flex;
+	justify-content : center;
+	align-items : flex-start;
+	height : 500px;
+}
+div.partieDroite{
+  text-align: center;
+}
+/*INSCRIPTION */
+div.confirm{
+  color : green;
+  font-weight: bold;
+}
+div.erreur{
+  color : red;
+  font-weight: bold;
+}
+table{
+  text-align: center;
+}
